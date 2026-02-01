@@ -1,0 +1,34 @@
+{
+  "name": "mcp-squiggle",
+  "version": "1.0.0",
+  "description": "A simple MCP server to run [Squiggle Language](https://www.squiggle-language.com/) locally.",
+  "main": "index.js",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.25.3",
+    "@quri/squiggle-lang": "^0.10.0",
+    "express": "^5.2.1",
+    "zod": "^4.3.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GollyTicker/mcp-squiggle.git"
+  },
+  "keywords": [
+    "mcp-server",
+    "squiggle"
+  ],
+  "author": "GollyTicker",
+  "license": "CC-BY-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/GollyTicker/mcp-squiggle/issues"
+  },
+  "homepage": "https://github.com/GollyTicker/mcp-squiggle#readme",
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
