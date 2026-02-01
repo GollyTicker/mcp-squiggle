@@ -2,7 +2,7 @@
   "name": "mcp-squiggle",
   "version": "1.0.0",
   "description": "A simple MCP server to run [Squiggle Language](https://www.squiggle-language.com/) locally.",
-  "main": "index.js",
+  "type": "module",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.25.3",
     "@quri/squiggle-lang": "^0.10.0",
